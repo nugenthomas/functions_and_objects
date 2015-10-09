@@ -27,7 +27,10 @@
 //make your target from #2 move around depending on the mouse position
 
   function drawTarget(targetColor){
-
+fill (targetColor);
+ for(var i = 20; i > 0; i--){
+     ellipse(mouseX, mouseY, i * 30, i * 30);
+}
 
 
   }
